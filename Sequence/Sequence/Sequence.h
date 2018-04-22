@@ -13,7 +13,6 @@
 @property (strong, nonatomic) NSArray *array;
 
 - (id)initWithArray:(NSArray *)array;
-- (NSInteger)sequenceLength;
 - (NSInteger)sum;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF71D270208CD197006DD04C /* Sequence+SequenceLength.m in Sources */ = {isa = PBXBuildFile; fileRef = EF71D26F208CD197006DD04C /* Sequence+SequenceLength.m */; };
 		EFD883C7208931FF00270618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD883C6208931FF00270618 /* AppDelegate.m */; };
 		EFD883CA208931FF00270618 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD883C9208931FF00270618 /* ViewController.m */; };
 		EFD883CD208931FF00270618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD883CB208931FF00270618 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF71D26E208CD197006DD04C /* Sequence+SequenceLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sequence+SequenceLength.h"; sourceTree = "<group>"; };
+		EF71D26F208CD197006DD04C /* Sequence+SequenceLength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Sequence+SequenceLength.m"; sourceTree = "<group>"; };
 		EFD883C2208931FF00270618 /* Sequence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD883C5208931FF00270618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFD883C6208931FF00270618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,11 +78,13 @@
 			isa = PBXGroup;
 			children = (
 				EFA5BC3D20894D530035B32E /* Support Files */,
+				EFD883D32089320300270618 /* Info.plist */,
 				EFD883C8208931FF00270618 /* ViewController.h */,
 				EFD883C9208931FF00270618 /* ViewController.m */,
 				EFD883DB2089326D00270618 /* Sequence.h */,
 				EFD883DC2089326D00270618 /* Sequence.m */,
-				EFD883D32089320300270618 /* Info.plist */,
+				EF71D26E208CD197006DD04C /* Sequence+SequenceLength.h */,
+				EF71D26F208CD197006DD04C /* Sequence+SequenceLength.m */,
 			);
 			path = Sequence;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				EFD883CA208931FF00270618 /* ViewController.m in Sources */,
 				EFD883D52089320300270618 /* main.m in Sources */,
 				EFD883DD2089326D00270618 /* Sequence.m in Sources */,
+				EF71D270208CD197006DD04C /* Sequence+SequenceLength.m in Sources */,
 				EFD883C7208931FF00270618 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
